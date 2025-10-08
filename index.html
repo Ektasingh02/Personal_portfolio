@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1>Ekta Singh</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero">
+            <h2>Welcome to my Portfolio</h2>
+            <p>Hello! I am Ekta Singh, a web development student. This is my personal portfolio website.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile photo of the developer" width="200">
+            <p>I am passionate about learning web development and building creative projects. My focus is currently on learning more about the fundamentals of HTML and CSS, and building accessible web applications.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website:</strong> A personal one-page website to showcase your bio, skills, and contact details.li>
+                <li><strong>Blog Website:</strong> A simple blog layout that reads the 3 languages of Web development.</li>
+                <li><strong>Student Grade table:</strong>  A table listing the marks of students in columns and rows.</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>HTML</td><td>beginner</td></tr>
+                    <tr><td>CSS</td><td>beginner</td></tr>
+                    <tr><td>JavaScript</td><td>beginner</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
